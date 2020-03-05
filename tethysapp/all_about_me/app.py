@@ -8,10 +8,10 @@ class AllAboutMe(TethysAppBase):
 
     name = 'All About Me'
     index = 'all_about_me:home'
-    icon = 'all_about_me/images/icon.gif'
+    icon = 'all_about_me/images/Michael.png'
     package = 'all_about_me'
     root_url = 'all-about-me'
-    color = '#f39c12'
+    color = '#5F9EA0'
     description = 'This app provides a brief description of the author.'
     tags = ''
     enable_feedback = False
@@ -31,7 +31,7 @@ class AllAboutMe(TethysAppBase):
             ),
             UrlMap(
                 name='map',
-                url='all_about_me/map',
+                url='all-about-me/map',
                 controller='all_about_me.controllers.map'
             ),
         )
